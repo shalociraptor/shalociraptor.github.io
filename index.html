@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html translate="no">
+    <head>
+        <style>
+            body {
+                background: rgb(42, 40, 44);
+                background-color: rgba(42,40,44,1);
+                opacity: 0.8;
+                background-image: radial-gradient(circle at center center, #7d83f0, rgb(42,40,44)), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+                background-blend-mode: multiply;
+                color: blanchedalmond;
+                font-family: times Georgia, 'Times New Roman', Times, serif;
+                padding: 10px;
+                padding-top: 0;
+            }
+            h1 {
+                font-size: 50px;
+                color: rgb(165, 242, 49);
+            }
+            .heading {
+                font-size: 25px;
+                color: rgb(165, 242, 49);
+                position: relative;
+                top: -40px;
+            }
+            h2 {
+                font-size: 30px;
+                color: rgb(165, 242, 49);
+            }
+            a {
+                color: rgb(165, 242, 49);
+                font-size: 20px;
+            }
+            p {
+                font-size: 17px;
+            }
+            .button {
+                background-color: darkslategrey;
+                color: greenyellow;
+                border: 2px solid;
+                font-size: 14px;
+            }
+            .title {
+                font-size: 20px;
+            }
+            .sub {
+                font-size: 19px;
+            }
+            ul {
+                font-size: 17px;
+            }
+            .design {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: black;
+                position: relative;
+                animation-name: design;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            .hoop1 {
+                width: 20px; 
+                height: 70px; 
+                border-radius: 50%; 
+                border: 2px solid blanchedalmond;
+                position: absolute;
+                left: 10px;
+                top: 160px;
+                box-shadow: 4px 5px 20px rgb(160, 159, 158);
+            }
+            .hoop2 {
+                width: 20px; 
+                height: 70px; 
+                border-radius: 50%; 
+                border: 2px solid blanchedalmond;
+                position:absolute;
+                left: screen;
+                top: 160px;
+                box-shadow: -1px 5px 20px rgb(160, 159, 158);
+            }
+            @keyframes design {
+                0%   {background-color:black; left: 0px; top: 0px;}
+                4%   {background-color:darkslategrey; left: 50px; top:20px;}
+                8% {background-color: greenyellow; left: 100px; top: 0px;}
+                12%   {background-color:black; left: 150px; top: 20px;}
+                16%   {background-color:darkslategrey; left: 200px; top: 0px;}
+                20%   {background-color:greenyellow; left: 250px; top: 20px;}
+                24%   {background-color:black; left: 300px; top: 0px;}
+                28%   {background-color:darkslategrey; left: 350px; top: 20px;}
+                32%   {background-color:greenyellow; left: 400px; top: 0px;}
+                36%   {background-color:black; left: 450px; top: 20px;}
+                40%   {background-color:darkslategrey; left: 500px; top: 0px;}
+                44%   {background-color:greenyellow; left: 550px; top: 20px;}
+                48%   {background-color:black; left: 600px; top: 0px;}
+                52%   {background-color:darkslategrey; left: 650px; top: 20px;}
+                56%   {background-color:greenyellow; left: 700px; top: 0px;}
+                60%   {background-color:black; left: 750px; top: 20px;}
+                64%   {background-color:darkslategrey; left: 800px; top: 0px;}
+                68%   {background-color:greenyellow; left: 850px; top: 20px;}
+                72%   {background-color:black; left: 900px; top: 0px;}
+                76%   {background-color:darkslategrey; left: 950px; top: 20px;}
+                80%   {background-color:greenyellow; left: 1000px; top: 0px;}
+                84%   {background-color:black; left: 1050px; top: 20px;}
+                88%   {background-color:darkslategrey; left: 1100px; top: 0px;}
+                92%   {background-color:greenyellow; left: 1150px; top: 20px;}
+                96%   {background-color:black; left: 1200px; top: 0px;}
+                99%   {background-color:darkslategrey; left: 1300px; top: 20px;}
+                100%   {background-color:greenyellow; left: screen; top: 0px;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1> Shalini Singh </h1>
+        <div class = "heading"> 
+            <a href="mailto:shalinisinghh04@gmail.com">  
+                <button class = "button"> Email </button>
+            </a>
+            <br> 
+            <a href="https://www.linkedin.com/in/shalini-singh-896320190/"> 
+                <button class = "button"> LinkedIn </button>
+            </a>
+        </div>
+        <div class="hoop1"></div>
+        <div class="hoop2"></div>
+        <div class = "design"> </div>
+        <h2> Education </h2>
+            <div class = "title"> 
+                University of Massachusetts Amherst, Amherst, MA
+            </div>
+            <div class = "sub"> 
+                Expected Graduation: December 2025
+                <br> <br> 
+                Bachelor of Science in Informatics: Concentration in Data Science
+                <br> 
+            </div>
+            <p>
+                Relevant Coursework: Intro to Data Science, Intro to Clinical Health Informatics, Business Intelligence and Analytics,
+                Personal Health Informatics, Practice and Applications of Data Management, WebGIS, Calculus I, Calculus II, Reasoning
+                Under Uncertainty, Programming with Data Structures, Computer Systems Principles
+            </p>
+
+        <h2> Projects </h2>
+        <a href="https://umass-amherst.maps.arcgis.com/apps/instant/insets/index.html?appid=368d144da276493ba18c218b2ac02746">
+            <div class = "title"> 
+                US School District Poverty Estimates and Characteristics During COVID-19 (2020-2021) 
+            </div>
+        </a>
+            <div class = "sub"> 
+                February 2025
+                <br> 
+                Web GIS Map - ArcGIS Online
+                <br> 
+            </div>
+            <p> 
+                Developed an interactive Web GIS map visualizing poverty estimates and school district characteristics, using two
+                datasets from the US Department of Education. The map spans poverty data through the early stages of the COVID-
+                19 pandemic (2020-2021).
+            </p>
+            <a href="https://github.com/shalociraptor/workplace-absenteeism">
+                <div class = "title"> 
+                    Predicting Workplace Absenteeism in Brazil
+                </div>
+            </a>
+                <div class = "sub"> 
+                    December 2024
+                    <br> 
+                    <a href = "https://archive.ics.uci.edu/dataset/445/absenteeism+at+work">
+                    Dataset sourced from the UC Irvine Machine Learning Repository: Absenteeism at Work
+                    </a>
+                    <br> 
+                </div>
+                <p> 
+                    <ul>
+                        <li> Analysis intended to be used by the fields of human resources and workforce management in Brazil to better
+                            understand and anticipate workplace absenteeism, and to foster a professional environment that is conducive to the
+                            needs and priorities of both parties.</li>
+                        <li> Cleaned, preprocessed, and performed exploratory data analysis and statistical analysis on the dataset. </li>
+                        <li> Developed and optimized linear regression and KNN models to predict employee time off in hours using R and its
+                            relevant libraries. Used cross-validation to evaluate performance and refined models through feature selection.</li>
+                    </ul>
+                </p>
+        <h2> Experience </h2>
+        <div class="title"> 
+            UMass IT Service Desk, Amherst MA
+        </div>
+        <div class="sub"> 
+            September 2023 - Current
+            <br>
+        </div>
+        <div class="title"> 
+            Student Consultant
+        </div>
+        <p>
+            <ul>
+                <li> Deliver comprehensive IT support to the UMass community, providing assistance both in-person and remotely </li>
+                <li> Providing Tier 1 support to service desk tickets using ServiceNow, troubleshooting technical issues across hardware,
+                    software, networking and network configuration, account management, and more. </li>
+            </ul>
+        </p>
+        <div class="title"> 
+            TraceLink, Wilmington, MA
+        </div>
+        <div class="sub"> 
+            May 2024 -August 2024
+            <br>
+        </div>
+        <div class="title"> 
+            IT Intern
+        </div>
+        <p>
+            <ul>
+                <li> Imaged and deployed Windows and Mac laptops for end-user use throughout the company </li>
+                <li> Addressed security vulnerability tickets from Tenable, ensuring compliance with internal security protocols and
+                 mitigating potential risks. </li>
+                 <li> Handled Service Desk tickets using ServiceNow, providing timely support for a range of IT-related issues and
+                ensuring high levels of user satisfaction.</li>
+                <li> DoD wiped/logged returned and retired laptops, maintaining data security and proper equipment disposal procedures. </li>
+                <li> Configured peripheral devices and monitors for cubicles throughout the office.</li>
+                <li> Executed firmware updates for docking stations and led the deployment of MacOS updates (Sonoma 14.5+) for all
+                MacBook users, ensuring consistency and security compliance.</li>
+            </ul>
+        </p>
+        <h2> Skills </h2>
+        <div class = "skills">
+            <ul> 
+                <li> R, Python, SQL, HTML/CSS, JavaScript, C, Java, PowerShell, Terminal, LaTeX </li>
+                <li> Experience with: RStudio, Tableau, PostgreSQL, JupyterLab, Anaconda, ArcGIS, Active Directory, ServiceNow,
+                Tenable, SCCM, Microsoft Intune, PDQ, Mac OS, Windows OS, Microsoft Office </li>
+                <li> Data modeling techniques: linear regression, logistic regression, k-nearest neighbors, cross-fold validation,
+                clustering, decision trees, time series </li>
+                <li> Frameworks and libraries: R: pROC, tibble, ggplot2, caret, dplyr; Python: pandas, NumPy, scikit-learn,
+                matplotlib, biopython </li>
+                <li> Data preprocessing, data visualization, data analysis, and statistical analysis </li>
+                <li> Collaborating on projects and tickets and cross-departmental teamwork </li> 
+                <li> Analytical and detail-oriented, as well as adaptable and organized </li>
+                <li> Proficient languages: English, Hindi </li>
+            </ul>
+        </div>
+    </body>
+</html>
